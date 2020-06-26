@@ -1,0 +1,2 @@
+
+cf create-service p.config-server standard my-composite-cfg-server -c '{"composite":[{ "type": "git", "uri": "https://github.com/NLxAROSA/composite-config-a", "periodic": true}, {"type": "git", "uri": "https://github.com/NLxAROSA/composite-config-b"}]}'
